@@ -16,13 +16,13 @@ const SearchOutput = (props) => {
 
     let searchResults = null;
     if (props.results) {
-	console.log(props.result);
         searchResults =
             props.results.map((result, index) => {
                 return (
                     <SearchResult
                         name={result.name}
                         id={result.id}
+			textures={JSON.parse(atob(result.properties[0].value)).textures}
                     />
                 );
             })
