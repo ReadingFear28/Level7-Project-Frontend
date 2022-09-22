@@ -16,14 +16,13 @@ const SearchOutput = (props) => {
 
     let searchResults = null;
     if (props.results) {
+	console.log(props.result);
         searchResults =
             props.results.map((result, index) => {
                 return (
                     <SearchResult
-                        key={index}
-                        title={result.title}
-                        authors={result.authors}
-                        link={result.link}
+                        name={result.name}
+                        id={result.id}
                     />
                 );
             })

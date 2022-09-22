@@ -1,10 +1,10 @@
 export const properties = {
-    courseName: 'Level 7 Animal Search',
-    endpoint: 'https://cheetah.api.jointheleague.org?q=',
-    description: 'Here is a brief description of the project.  Try to keep it to two or three sentences',
-    backendSwaggerUrl: 'https://cheetah.api.jointheleague.org/',
-    createdBy: 'Student One, Student Two, Student Three',
-    repositoryUrl: 'https://github.com/LEAGUE-Level7/Cheetah-Search'
+    courseName: 'Level 7 Minecraft Search',
+    endpoint: 'http://localhost:5000/getProfile?q=',
+    description: 'This is my level 7 project. It searches mojang\'s api for minecraft accounts.',
+    backendSwaggerUrl: 'http://localhost:5000',
+    createdBy: 'Zander Zhao',
+    repositoryUrl: 'https://github.com/ReadingFear28/Level7-Project'
 };
 
 /*
